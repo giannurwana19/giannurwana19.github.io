@@ -1,0 +1,23 @@
+* {
+  scroll-behavior: smooth;
+}
+
+
+section{
+  min-height: 300px;
+}
+
+.jumbotron{
+  background-image: url('assets/img/hac.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.portfolio{
+  background-image: url('assets/img/hac.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.top-footer{
+  background-color: #eaeaea;
+}
