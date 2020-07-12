@@ -21,6 +21,18 @@ hr.bawah {
   border: 1px solid white;
 }
 
+.inner-img {
+  overflow: hidden;
+}
+
+.inner-img img {
+  transition: 1s;
+}
+
+.inner-img img:hover {
+  transform: scale(1.15);
+}
+
 section{
   min-height: 300px;
 }
@@ -30,10 +42,11 @@ section{
 }
 
 .card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-5px);
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
 }
 
 .top-footer{
   background-color: #eaeaea;
 }
+
