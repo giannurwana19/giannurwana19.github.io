@@ -1,23 +1,39 @@
 * {
   scroll-behavior: smooth;
+  font-family: Titillium Web;
 }
 
+p {
+  line-height: 28px;
+}
+
+hr { 
+  border: 1px solid rgb(37, 37, 37);
+  width: 80px;
+}
+
+hr.putih {
+  border: 1px solid white;
+}
+
+hr.bawah {
+  width: 100%;
+  border: 1px solid white;
+}
 
 section{
   min-height: 300px;
 }
 
-.jumbotron{
-  background-image: url('assets/img/hac.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+.card {
+  transition: .3s;
 }
 
-.portfolio{
-  background-image: url('assets/img/hac.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
 }
+
 .top-footer{
   background-color: #eaeaea;
 }
