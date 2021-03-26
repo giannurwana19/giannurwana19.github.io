@@ -21,3 +21,24 @@ section {
 #projects{
   background-color: #e2edff;
 }
+
+.inner-img {
+  overflow: hidden;
+}
+
+.inner-img img {
+  transition: .8s;
+}
+
+.inner-img img:hover {
+  transform: scale(1.15);
+}
+
+.card {
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+}
