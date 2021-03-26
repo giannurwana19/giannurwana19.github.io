@@ -2,77 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
 
 * {
-  scroll-behavior: smooth;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
 }
 
-body {
-  overflow-x: hidden;
+.bg-light-blue{
+  background-color: #2980b9;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
-}
-
-.navbar {
-  padding: .8rem 0;
-  font-size: 1.2rem;
-}
-
-.navbar-nav a {
-  margin-right: 1rem;
-}
-
-
-p {
-  line-height: 28px;
-}
-
-hr {
-  border: 1px solid rgb(37, 37, 37);
-  width: 80px;
-}
-
-hr.putih {
-  border: 1px solid white;
-}
-
-hr.bawah {
-  width: 100%;
-  border: 1px solid white;
-}
-
-.inner-img {
-  overflow: hidden;
-}
-
-.inner-img img {
-  transition: 1.5s;
-}
-
-.inner-img img:hover {
-  transform: scale(1.15);
+.jumbotron{
+  padding-top: 7rem;
+  background-color: #e2edff;
 }
 
 section {
-  min-height: 300px;
+  padding-top: 5rem;
 }
 
-.card {
-  transition: .3s;
-}
-
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
-}
-
-.top-footer {
-  background-color: #eaeaea;
+#projects{
+  background-color: #e2edff;
 }
