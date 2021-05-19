@@ -5,11 +5,11 @@
   font-family: 'Nunito', 'Segoe UI', sans-serif;
 }
 
-.bg-light-blue{
+.bg-light-blue {
   background-color: #2980b9;
 }
 
-.jumbotron{
+.jumbotron {
   padding-top: 7rem;
   background-color: #e2edff;
 }
@@ -18,7 +18,7 @@ section {
   padding-top: 5rem;
 }
 
-#projects{
+#projects {
   background-color: #e2edff;
 }
 
@@ -27,7 +27,7 @@ section {
 }
 
 .inner-img img {
-  transition: .8s;
+  transition: 0.8s;
 }
 
 .inner-img img:hover {
@@ -35,10 +35,19 @@ section {
 }
 
 .card {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .card:hover {
   /* transform: translateY(-2px); */
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+/* apapun yang ada di dalam persis setelah .row */
+#gallery .row > * {
+  padding: 0;
 }
