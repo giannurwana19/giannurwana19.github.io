@@ -24,6 +24,14 @@ gsap.to('.lead', {
   delay: 1.5,
 });
 
+gsap.to('.display-5', {
+  duration: 1,
+  text: {
+    value: 'Gian Nurwana',
+  },
+  delay: 1,
+});
+
 gsap.from('.jumbotron img', {
   duration: 1.2,
   y: -100,
@@ -38,13 +46,13 @@ gsap.from('.navbar', {
   ease: 'bounce',
 });
 
-gsap.from('.display-5', {
-  duration: 1,
-  x: 50,
-  opacity: 0,
-  delay: 0.5,
-  ease: 'back',
-});
+// gsap.from('.display-5', {
+//   duration: 1,
+//   x: 50,
+//   opacity: 0,
+//   delay: 0.5,
+//   ease: 'back',
+// });
 
 // Form Firebase
 const scriptURL =
