@@ -48,7 +48,7 @@
 
 <body id="home">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-light-blue shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light-blue fixed-top shadow-sm">
     <div class="container">
       <a class="navbar-brand" href="#home">Gian Nurwana</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -59,7 +59,9 @@
         <div class="navbar-nav ms-auto">
           <a class="nav-link active" aria-current="page" href="#home">Home</a>
           <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#skills">skills</a>
           <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#gallery">Gallery</a>
           <a class="nav-link" href="#contact">Contact</a>
         </div>
       </div>
@@ -69,9 +71,13 @@
 
   <!-- jumbotron -->
   <section class="jumbotron text-center">
-    <img src="assets/img/avatar2.png" class="rounded-circle img-thumbnail mb-2" alt="Gian Nurwana" width="200">
+    <img src="assets/img/profile/avatar3.jpg" class="rounded-circle border border-3 mb-2" alt="Gian Nurwana"
+      width="200">
     <h1 class="display-5 fw-bold">GN</h1>
     <p class="lead">Seorang...</p>
+    <div>
+      <small><em><strong>- "Keep Spirit & Keep Coding!"</strong></em></small>
+    </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fff" fill-opacity="1"
         d="M0,160L40,170.7C80,181,160,203,240,197.3C320,192,400,160,480,133.3C560,107,640,85,720,101.3C800,117,880,171,960,170.7C1040,171,1120,117,1200,106.7C1280,96,1360,128,1400,144L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
@@ -89,15 +95,43 @@
         </div>
       </div>
       <div class="row justify-content-center fs-5 text-center text-secondary">
-        <div class="col-lg-4" data-aos="fade-right" data-aos-duration="1000">
+        <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
           <p>Saat ini saya seorang <strong>Mahasiswa</strong> Sistem Informasi Semester 6 di Universitas Raharja
-            Tangerang. Saya menyukai semua hal tentang teknologi, termasuk pemrograman komputer.</p>
+            Tangerang. Memiliki minat berkarir di dunia teknologi dan mampu dalam mengembangkan program aplikasi
+            berbasis Web atau REST API.</p>
         </div>
-        <div class="col-lg-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-          <p>Untuk <strong>Frontend</strong>, tools yang digunakan: HTML, CSS, Javascript, Bootstrap serta
-            sedang mendalami VueJS dan ReactJS. Untuk <strong>Backend</strong>, saya menggunakan PHP dan
-            Framework Laravel, serta MySQL sebagai DBMS database.
+        <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+          <p>
+            Saya serta selalu mempelajari hal-hal baru tentang perkembangan teknologi.
+            Saya dapat beradaptasi dapat bekerja sama dengan tim, bertanggung jawab dan profesional dalam bekerja.
           </p>
+        </div>
+      </div>
+    </div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#e2edff" fill-opacity="1"
+        d="M0,96L40,85.3C80,75,160,53,240,69.3C320,85,400,139,480,149.3C560,160,640,128,720,117.3C800,107,880,117,960,144C1040,171,1120,213,1200,213.3C1280,213,1360,171,1400,149.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg> -->
+  </section>
+  <!-- End About -->
+
+  <section id="skills">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Skills</h2>
+        </div>
+      </div>
+      <div class="row mb-5 justify-content-center fs-5 text-center text-secondary">
+        <div class="col-md-3 col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+          <h4 class="text-dark">Frontend</h4>
+          Saya Menggunakan HTML, CSS, Javascript & ReactJS, Bootstrap dan Tailwind sebagai
+          Framework CSS.
+        </div>
+        <div class="col-md-3 col-lg-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+          <h4 class="text-dark">Backend</h4>
+          Saya menggunakan PHP dan Framework Laravel, serta MySQL sebagai DBMS database.
         </div>
       </div>
     </div>
@@ -107,7 +141,6 @@
       </path>
     </svg>
   </section>
-  <!-- End About -->
 
   <!-- projects -->
   <section id="projects">
@@ -121,20 +154,33 @@
         <div class="col-lg-4 col-md-6 mb-3">
           <div class="card" data-aos="flip-left" data-aos-duration="1000">
             <div class="inner-img">
-              <img src="assets/img/webquranku.png" class="card-img-top" alt="...">
+              <img src="assets/img/projects/webquranku.png" class="card-img-top" alt="...">
             </div>
             <div class="card-body">
               <p class="card-text">Aplikasi Quranku dengan ReactJS
               </p>
-              <a href="http://webquranku.netlify.app/" target="_blank"
-                class="btn btn-primary btn-sm">Lihat Project</a>
+              <a href="https://webquranku.vercel.app" target="_blank" class="btn btn-primary btn-sm">Lihat Project</a>
             </div>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-6 mb-3">
           <div class="card" data-aos="flip-left" data-aos-duration="1000">
             <div class="inner-img">
-              <img src="assets/img/laravel8-shop.png" class="card-img-top" alt="...">
+              <img src="assets/img/projects/cekcovid.png" class="card-img-top" alt="cekcovid">
+            </div>
+            <div class="card-body">
+              <p class="card-text">Aplikasi Covid tracker dengan ReactJS
+              </p>
+              <a href="https://cekcovid19.vercel.app" target="_blank" class="btn btn-primary btn-sm">Lihat Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="card" data-aos="flip-left" data-aos-duration="1000">
+            <div class="inner-img">
+              <img src="assets/img/projects/laravel8-shop.png" class="card-img-top" alt="...">
             </div>
             <div class="card-body">
               <p class="card-text">Website toko online dengan laravel 8
@@ -144,23 +190,39 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-6 mb-3">
           <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
             <div class="inner-img">
-              <img src="assets/img/laravel8-customer.png" class="card-img-top" alt="...">
+              <img src="assets/img/projects/laravel-crud-siswa.png" class="card-img-top" alt="...">
             </div>
             <div class="card-body">
-              <p class="card-text">Website pencatatan customer dengan laravel 8 dan Vue 3
+              <p class="card-text">Website Pendaftaran siswa dengan Laravel
               </p>
-              <a href="https://github.com/giannurwana19/laravel8-customer" target="_blank"
+              <a href="https://github.com/giannurwana19/laravel-crud-siswa" target="_blank"
                 class="btn btn-primary btn-sm">Lihat Project</a>
             </div>
           </div>
         </div>
+
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
+            <div class="inner-img">
+              <img src="assets/img/projects/livewire-pos.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <p class="card-text">Aplikasi Point of Sales (POS) laravel livewire
+              </p>
+              <a href="https://github.com/giannurwana19/livewire-pos" target="_blank"
+                class="btn btn-primary btn-sm">Lihat Project</a>
+            </div>
+          </div>
+        </div>
+
         <div class="col-lg-4 col-md-6 mb-3">
           <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
             <div class="inner-img">
-              <img src="assets/img/laravel8-cms.png" class="card-img-top" alt="...">
+              <img src="assets/img/projects/laravel8-cms.png" class="card-img-top" alt="...">
             </div>
             <div class="card-body">
               <p class="card-text">Website Content Management System (CMS) dengan laravel 8</p>
@@ -169,10 +231,11 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-6 mb-3">
           <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
             <div class="inner-img">
-              <img src="assets/img/laravel8-forum.png" class="card-img-top" alt="...">
+              <img src="assets/img/projects/laravel8-forum.png" class="card-img-top" alt="...">
             </div>
             <div class="card-body">
               <p class="card-text">Website Forum dengan laravel 8</p>
@@ -181,14 +244,15 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-6 mb-3">
           <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
             <div class="inner-img">
-              <img src="assets/img/laravel7-fundamental.png" class="card-img-top" alt="...">
+              <img src="assets/img/projects/post-app.png" class="card-img-top" alt="...">
             </div>
             <div class="card-body">
-              <p class="card-text">Website simple blog dengan laravel 7</p>
-              <a href="https://github.com/giannurwana19/laravel8-forum" target="_blank"
+              <p class="card-text">Aplikasi Sosial media dengan laravel</p>
+              <a href="https://github.com/giannurwana19/laravel8-post-app" target="_blank"
                 class="btn btn-primary btn-sm">Lihat Project</a>
             </div>
           </div>
@@ -214,52 +278,32 @@
       <div class="row justify-content-center">
         <div class="col-md-6 col-lg-3">
           <a href="#">
-            <img src="assets/img/gallery/image1.jpg" class="img-fluid gallery-img" alt="">
+            <img src="assets/img/gallery/galeri1.jpg" class="img-fluid gallery-img" alt="">
           </a>
         </div>
         <div class="col-md-6 col-lg-3">
           <a href="#">
-            <img src="assets/img/gallery/image2.jpg" class="img-fluid gallery-img" alt="">
+            <img src="assets/img/gallery/galeri2.jpg" class="img-fluid gallery-img" alt="">
           </a>
         </div>
         <div class="col-md-6 col-lg-3">
           <a href="#">
-            <img src="assets/img/gallery/image3.jpg" class="img-fluid gallery-img" alt="">
+            <img src="assets/img/gallery/galeri3.jpg" class="img-fluid gallery-img" alt="">
           </a>
         </div>
         <div class="col-md-6 col-lg-3">
           <a href="#">
-            <img src="assets/img/gallery/image4.jpg" class="img-fluid gallery-img" alt="">
+            <img src="assets/img/gallery/galeri4.jpg" class="img-fluid gallery-img" alt="">
           </a>
         </div>
         <div class="col-md-6 col-lg-3">
           <a href="#">
-            <img src="assets/img/gallery/image5.jpg" class="img-fluid gallery-img" alt="">
+            <img src="assets/img/gallery/galeri5.jpg" class="img-fluid gallery-img" alt="">
           </a>
         </div>
         <div class="col-md-6 col-lg-3">
           <a href="#">
-            <img src="assets/img/gallery/image6.jpg" class="img-fluid gallery-img" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <a href="#">
-            <img src="assets/img/gallery/image7.jpg" class="img-fluid gallery-img" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <a href="#">
-            <img src="assets/img/gallery/image8.jpg" class="img-fluid gallery-img" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <a href="#">
-            <img src="assets/img/gallery/image9.jpg" class="img-fluid gallery-img" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <a href="#">
-            <img src="assets/img/gallery/image10.jpg" class="img-fluid gallery-img" alt="">
+            <img src="assets/img/gallery/galeri6.jpg" class="img-fluid gallery-img" alt="">
           </a>
         </div>
       </div>

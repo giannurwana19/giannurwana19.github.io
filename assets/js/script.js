@@ -8,7 +8,7 @@ galleryImage.forEach((img, index) => {
 
 // init AOS
 AOS.init({
-  // once: true,
+  once: true,
   duration: 1000, // durasi default
 });
 
@@ -39,12 +39,12 @@ gsap.from('.jumbotron img', {
   rotateY: 360,
 });
 
-gsap.from('.navbar', {
-  duration: 1,
-  y: '-100%',
-  opacity: 0,
-  ease: 'bounce',
-});
+// gsap.from('.navbar', {
+//   duration: 1,
+//   y: '-100%',
+//   opacity: 0,
+//   ease: 'bounce',
+// });
 
 // gsap.from('.display-5', {
 //   duration: 1,
