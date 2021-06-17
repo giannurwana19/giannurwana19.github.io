@@ -4,7 +4,7 @@
   "description": "Website Portfolio Gian Nurwana",
   "main": "index.js",
   "scripts": {
-    "start": "serve public",
+    "start": "npx serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -32,12 +32,12 @@ gsap.to('.display-5', {
   delay: 1,
 });
 
-gsap.from('.jumbotron img', {
-  duration: 1.2,
-  y: -100,
-  opacity: 0,
-  rotateY: 360,
-});
+// gsap.from('.jumbotron img', {
+//   duration: 1.2,
+//   y: -100,
+//   opacity: 0,
+//   rotateY: 360,
+// });
 
 // gsap.from('.navbar', {
 //   duration: 1,
@@ -70,7 +70,7 @@ form.addEventListener('submit', e => {
   btnLoading.classList.toggle('d-none');
 
   fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-    .then(response => {
+    .then(() => {
       // tampilkan tombol kirim, hilangkan tombal loading
       btnSubmit.classList.toggle('d-none');
       btnLoading.classList.toggle('d-none');
@@ -86,7 +86,7 @@ form.addEventListener('submit', e => {
 });
 
 // e.preventDefault();
-// e.preventDefault() akan mengirimkan data dengan method get (fungsi default nya)
+// e.preventDefault() mencegah form untuk mengirimkan data dengan method get (fungsi default nya)
 
 const textYear = document.getElementById('textYear');
 const date = new Date();
