@@ -24,7 +24,7 @@ gsap.to('.lead', {
   delay: 1.5,
 });
 
-gsap.to('.display-5', {
+gsap.to('.display-6', {
   duration: 1,
   text: {
     value: 'Gian Nurwana',
