@@ -19,6 +19,8 @@
 }
 
 .jumbotron {
+  box-sizing: border-box;
+  overflow-x: hidden;
   padding-top: 7rem;
   background-color: #e2edff;
 }
