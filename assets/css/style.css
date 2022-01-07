@@ -9,6 +9,15 @@
   background-color: #2980b9;
 }
 
+.avatar:hover {
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.text-light-blue {
+  color: #2980b9;
+}
+
 .jumbotron {
   padding-top: 7rem;
   background-color: #e2edff;
