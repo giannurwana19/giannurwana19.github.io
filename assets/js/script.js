@@ -1,5 +1,35 @@
 const galleryImage = document.querySelectorAll('.gallery-img');
 
+const swiperProfile = new Swiper('#swiper-profile', {
+  watchSlidesProgress: true,
+  grabCursor: true,
+  loop: true,
+  effect: 'flip',
+  flipEffect: {
+    slideShadows: false,
+  },
+  speed: 1000,
+  autoplay: {
+    delay: 10000,
+    disableOnInteraction: false,
+  },
+});
+
+const swiperQuotes = new Swiper('#swiper-quotes', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  watchSlidesProgress: true,
+  grabCursor: true,
+  loop: true,
+  speed: 1000,
+  autoplay: {
+    delay: 7000,
+    disableOnInteraction: false,
+  },
+});
+
 galleryImage.forEach((img, index) => {
   img.dataset.aos = 'fade-down';
   img.dataset.aosDelay = index * 50;
