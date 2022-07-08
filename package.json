@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/giannurwana19/giannurwana19.github.io#readme",
   "dependencies": {
-    "moment": "^2.29.1"
+    "moment": "^2.29.4"
   }
 }
